@@ -1,84 +1,193 @@
-import React, { useState } from 'react'
-import './navbar.css';
-import './navbar.scss';
-import { MdOutlineTravelExplore } from 'react-icons/md';
-import { AiFillCloseCircle } from 'react-icons/ai';
-import { TbGridDots } from 'react-icons/tb';
-
-
-const Navbar = () => {
-  const [active, setActive] = useState('navBar')
-
-  //Function to toggle Navbar
-  const showNav = () => {
-    setActive('navBar activeNavbar')
-  }
-  //Function to close Navbar
-  const removeNavbar = () => {
-    setActive('navBar ')
-  }
-
+import React, { useState } from "react";
+import styled from "styled-components";
+import logo from "../assets/logo.png";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { VscChromeClose } from "react-icons/vsc";
+export default function Navbar() {
+  const [navbarState, setNavbarState] = useState(false);
   return (
-    <section className="navBarSection">
-      <header className="header flex">
-
-        <div className="logoDiv">
-          <a href="#" className="logo">
-            <h1><MdOutlineTravelExplore className="icon" />    Travel.</h1>
-          </a>
-        </div>
-
-        <div className={active}>
-          <ul className="navLists flex">
-            <li className="navItem">
-              <a href="#" className="navLink">Home</a>
-            </li>
-
-            <li className="navItem">
-              <a href="#" className="navLink">Packages</a>
-            </li>
-
-            <li className="navItem">
-              <a href="#" className="navLink">Shop</a>
-            </li>
-
-            <li className="navItem">
-              <a href="#" className="navLink">About</a>
-            </li>
-
-            <li className="navItem">
-              <a href="#" className="navLink">Pages</a>
-            </li>
-
-            <li className="navItem">
-              <a href="#" className="navLink">News</a>
-            </li>
-
-            <li className="navItem">
-              <a href="#" className="navLink">News</a>
-            </li>
-
-            <li className="navItem">
-              <a href="#" className="navLink">Contact</a>
-            </li>
-
-            <button className="btn">
-              <a href="#" >BOOK NOW</a>
-            </button>
-          </ul>
-
-          <div onClick={removeNavbar} className="closeNavbar"><AiFillCloseCircle className='icon' />
-
+    <>
+      <Nav>
+        <div className="brand">
+          <div className="container">
+            <img src={logo} alt="" />
+            Travelo
+          </div>
+          <div className="toggle">
+            {navbarState ? (
+              <VscChromeClose onClick={() => setNavbarState(false)} />
+            )
+              :
+              (
+                <GiHamburgerMenu onClick={() => setNavbarState(true)} />
+              )}
           </div>
         </div>
 
-        <div onClick={showNav} className="toggleNavBar">
-          <TbGridDots className='icon' />
-
-        </div>
-      </header>
-    </section>
-  )
-
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#services">About</a>
+          </li>
+          <li>
+            <a href="#recommend">Places</a>
+          </li>
+          <li>
+            <a href="#testimonials">Testimonials</a>
+          </li>
+        </ul>
+        <button>Sign-up</button>
+      </Nav>
+      <ResponsiveNav state={navbarState}>
+        <ul>
+          <li>
+            <a href="#home" onClick={() => setNavbarState(false)}>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#services" onClick={() => setNavbarState(false)}>
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#recommend" onClick={() => setNavbarState(false)}>
+              Places
+            </a>
+          </li>
+          <li>
+            <a href="#testimonials" onClick={() => setNavbarState(false)}>
+              Testimonials
+            </a>
+          </li>
+        </ul>
+      </ResponsiveNav>
+    </>
+  );
 }
-export default Navbar
+
+
+
+const Nav = styled.nav`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 5px 10px 0px #aaa;
+  background: #fff;
+
+  padding-left:5px;
+  padding-right: 5px;
+
+  .brand {
+    .container {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 1.2rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      color:#232a29
+    }
+    .toggle {
+      display: none;
+    }
+  }
+  ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    li {
+      a {
+        text-decoration: none;
+        color: #0077b6;
+        font-size: 1.3rem;
+        transition: 0.1s ease-in-out;
+        &:hover {
+          color: #112222;
+        }
+      }
+      // &:first-of-type {                //this is used for highlighting navbar content selected
+        a {
+          color: #326967;
+          font-weight: 700;
+        // }
+      }
+    }
+  }
+  button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    background-color: #6acdbd;
+    font-size: 1.05rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      backgrond-color:#3a9e8deb;
+    }
+  }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    .brand {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      .toggle {
+        display: block;
+      }
+    }
+    ul {
+      display: none;
+    }
+    button {
+      display: none;
+    }
+  }
+`;
+
+const ResponsiveNav = styled.div`
+
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  top: ${({ state }) => (state ? "50px" : "-400px")};
+  background-color: white;
+  height: 30vh;
+  width: 100%;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+  ul {
+    list-style-type: none;
+    width: 100%;
+    li {
+      width: 100%;
+      margin: 1rem 0;
+      margin-left: 2rem;
+
+      a {
+        text-decoration: none;
+        color: #0077b6;
+        font-size: 1.2rem;
+        transition: 0.1s ease-in-out;
+        &:hover {
+          color: #326967;
+        }
+      }
+      &:first-of-type {
+        a {
+          color: #326967;
+          font-weight: 900;
+        }
+      }
+    }
+  }
+`;
