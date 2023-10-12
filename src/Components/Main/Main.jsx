@@ -3,7 +3,7 @@ import './main.css';
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <div>Hero</div>
   )
 }
 
