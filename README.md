@@ -23,9 +23,7 @@ Wanderlust, a Travel Website is a React application that uses React Hooks and Re
 
 
 </ul>
-<p aign="center">
-  <p align="center">Website: <a href="https://github.com/Aditi020/Wanderlust">Wanderlust</a></p>
-</p>
+
 
 <h2> Preview ⚡️</h2>
 
