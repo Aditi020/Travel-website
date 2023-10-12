@@ -1,17 +1,21 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import logo from "../assets/logo.png";
+import logo from "../Assets/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { VscChromeClose } from "react-icons/vsc";
+import { useAuth0 } from "@auth0/auth0-react";
+
+
 export default function Navbar() {
   const [navbarState, setNavbarState] = useState(false);
+  const { loginWithRedirect } = useAuth0();
   return (
     <>
       <Nav>
         <div className="brand">
           <div className="container">
             <img src={logo} alt="" />
-            Travelo
+            Wanderlust
           </div>
           <div className="toggle">
             {navbarState ? (
@@ -38,7 +42,7 @@ export default function Navbar() {
             <a href="#testimonials">Testimonials</a>
           </li>
         </ul>
-        <button>Sign-up</button>
+        <button onClick={() => loginWithRedirect()}>Log In</button>
       </Nav>
       <ResponsiveNav state={navbarState}>
         <ul>
@@ -78,7 +82,7 @@ const Nav = styled.nav`
   background: #fff;
 
   padding-left:5px;
-  padding-right: 5px;
+  padding-right:12px;
 
   .brand {
     .container {
@@ -112,7 +116,7 @@ const Nav = styled.nav`
           color: #112222;
         }
       }
-      // &:first-of-type {                //this is used for highlighting navbar content selected
+      // &:first-of-type {   //this is used for highlighting navbar content selected
         a {
           color: #326967;
           font-weight: 700;
@@ -123,10 +127,10 @@ const Nav = styled.nav`
   button {
     padding: 0.5rem 1rem;
     cursor: pointer;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     border: none;
     color: white;
-    background-color: #6acdbd;
+    background-color: #326967;
     font-size: 1.05rem;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
@@ -171,7 +175,7 @@ const ResponsiveNav = styled.div`
     li {
       width: 100%;
       margin: 1rem 0;
-      margin-left: 2rem;
+      // margin-left: 2rem;
 
       a {
         text-decoration: none;
