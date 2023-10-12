@@ -1,30 +1,30 @@
 # How to Contribute
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/SuperAayush/Zomato-Clone/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/aditi020/Wanderlust/pulls)
 
 - Take a look at the existing [Issues](https://github.com/Aditi020/Wanderlust/issues) or [create a new issue (https://github.com/Aditi020/Wanderlust/issues/new)
-- [Fork the Repo](https://github.com/SuperAayush/Zomato-Clone/fork). Then, create a branch for any issue that you are working on. Finally, commit your work.
-- Create a **[Pull Request](https://github.com/SuperAayush/Zomato-Clone/compare)** (_PR_), which will be promptly reviewed and given suggestions for improvements by the community.
+- [Fork the Repo](https://github.com/aditi020/Wanderlust/fork). Then, create a branch for any issue that you are working on. Finally, commit your work.
+- Create a **[Pull Request](https://github.com/aditi020/Wanderlust/compare)** (_PR_), which will be promptly reviewed and given suggestions for improvements by the community.
 - Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes proposed in your PR.
 
 ## HOW TO MAKE A PULL REQUEST:
 
-**1.** Clone your new fork of the repository in the terminal/CLI on your computer with the following command:
+**Wanderlust your new fork of the repository in the terminal/CLI on your computer with the following command:
 
 ```bash
-git clone https://github.com/<your-github-username>/Zomato-Clone
+git clone https://github.com/<your-github-username>/Wanderlust
 ```
 
 **2.** Navigate to the newly created LinkFree project directory:
 
 ```bash
-cd Zomato-Clone
+cd Wanderlust
 ```
 
 **3.** Set upstream command:
 
 ```bash
-git remote add upstream https://github.com/SuperAayush/Zomato-Clone.git
+git remote add upstream https://github.com/aditi020/Wanderlust.git
 ```
 
 **4.** Create a new branch:
@@ -74,15 +74,15 @@ git push origin YourBranchName
 
 **9.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
-**Congratulations!** You've made your first contribution to [**Zomato-Clone**](https://github.com/SuperAayush/Zomato-Clone/graphs/contributors)! 
+**Congratulations!** You've made your first contribution to [**Wanderlust**](https://github.com/aditi020/Wanderlust/graphs/contributors)! 
 
-**_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the LinkFree project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
+**_:trophy: After this, I will review the PR and will merge it if it helps move the LinkFree project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
 
 ## Run automated tests
 
-After making changes make sure that tests passes
+After making changes make sure that tests pass
 
-Start the Zomato-Clone application by previewing the project using the extension Live Server.
+Start the Wanderlust application by previewing the project using the extension Live Server.
 
 
 ## All the best! 👍🏻
