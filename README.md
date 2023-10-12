@@ -71,9 +71,9 @@ https://Wanderlust-6k3.pages.dev/
 A word of disclaimer, 
 <ul><li>styled-components</li></ul>
 <p><code>npm i styled-components</code></p>
-<ul><<li>react-icons</li></ul>
+<ul><li>react-icons</li></ul>
 <p><code>npm i react-icons</code></p>
-<ul><<li>scrollreveal</li></ul>
+<ul><li>scrollreveal</li></ul>
 <p><code>npm i scrollreveal</code></p>
 
 ## Contributing 💡
