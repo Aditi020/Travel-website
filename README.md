@@ -69,7 +69,7 @@ https://Wanderlust-6k3.pages.dev/
 
 ## Disclaimer ❗️
 A word of disclaimer, 
-<ul><<li>styled-components</li></ul>
+<ul><li>styled-components</li></ul>
 <p><code>npm i styled-components</code></p>
 <ul><<li>react-icons</li></ul>
 <p><code>npm i react-icons</code></p>
