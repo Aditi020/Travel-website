@@ -79,7 +79,7 @@ A word of disclaimer,
 ## Contributing 💡
 Contributions are always welcome!
 
-See [CONTRIBUTIONS.md](https://github.com/ADITI020/Wanderlust/blob/main/CONTRIBUTING.md) for ways to get started.
+See [CONTRIBUTIONS.md]([https://github.com/ADITI020/Wanderlust/blob/main/CONTRIBUTING.md](https://github.com/Aditi020/Wanderlust/blob/master/CONTRIBUTING.md)) for ways to get started.
 
 Please adhere to this project's [code of conduct](https://github.com/ADITI020/Wanderlust/blob/main/CODE_OF_CONDUCT.md).
 
