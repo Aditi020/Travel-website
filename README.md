@@ -39,8 +39,9 @@ Wanderlust, a Travel Website is a React application that uses React Hooks and Re
 
 <br>
 
-<img src="./src/Assets/Wanderlus_.3.png" alt="Screenshot3">
+<img src="./src/Assets/Wanderlust_3.png" alt="Screenshot3">
 
+<br>
 
 </p>  
 
