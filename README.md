@@ -1,70 +1,100 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Aditi020/Wanderlust.git)
 
-## Available Scripts
+- Gitpod can provide a simple way to clone a repository on the browser itself without a fork. You can configure the repository on the browser version of VS Code without worrying about the dependencies to install.
 
-In the project directory, you can run:
+<h1 align="center">Wanderlust🎯</h1>
+Wanderlust, a Travel Website is a React application that uses React Hooks and React Router for this beginner React JS Project. The website is fully responsive and provides Authentication and Authorization services.
 
-### `npm start`
+</ul><h2>Technologies Used 🛠️</h2>
+<ul>
+<li>HTML</li>
+</ul><ul>
+<li>CSS</li>
+</ul><ul>
+<li>JavaScript</li>
+</ul><ul>
+<li>ReactJS</li>
+</ul><ul>
+  
+</ul><h2>Platform Used 🛠️</h2>
+<ul>
+<li>GitHub Pages</li>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</ul>
+<p aign="center">
+  <p align="center">Website: <a href="https://github.com/Aditi020/Wanderlust">Wanderlust</a></p>
+</p>
 
-### `npm test`
+<h2> Preview ⚡️</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<p align="center">
+  
+![Screenshot](/src/Assets/Wanderlust.1.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot](/src/Assets/Wanderlust.2.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot](/src/Assets/Wanderlust.3.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+</p>  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Website 💻
+https://Wanderlust-6k3.pages.dev/
 
-## Learn More
+</ul><h2> Features 🔥</h2>
+✔️ Class and Functional Components <br />
+✔️ State and Props <br />
+✔️ Component Lifecycle Methods <br />
+✔️ React Hooks <br />
+✔️ Promises <br />
+✔️ React Router <br />
+✔️ Authentication and Authorization services to implement login functionality. <br />
+  
+## Usage 📋
+<p>To run this project on your device, clone the repository and open the terminal in your editor. Following are the requirements to run this project:</p><h5>Code Examples</h5><ul>
+<li>Clone the project</li>
+</ul><p><code>git clone https://github.com/Aditi020/Wanderlust </code></p><ul>
+<li>Go to the project directory</li>
+</ul><p><code>cd Wanderlust </code></p><ul>
+<li>Install dependencies</li>
+</ul><p><code>npm install </code></p><ul>
+<li>Start the server</li>
+</ul><p><code>npm start</code></p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Disclaimer ❗️
+A word of disclaimer, 
+<ul><<li>styled-components</li></ul>
+<p><code>npm i styled-components</code></p>
+<ul><<li>react-icons</li></ul>
+<p><code>npm i react-icons</code></p>
+<ul><<li>scrollreveal</li></ul>
+<p><code>npm i scrollreveal</code></p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing 💡
+Contributions are always welcome!
 
-### Code Splitting
+See [CONTRIBUTIONS.md](https://github.com/ADITI020/Wanderlust/blob/main/CONTRIBUTING.md) for ways to get started.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Please adhere to this project's [code of conduct](https://github.com/ADITI020/Wanderlust/blob/main/CODE_OF_CONDUCT.md).
 
-### Analyzing the Bundle Size
+<hr>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Don't forget to leave a 🌟.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
