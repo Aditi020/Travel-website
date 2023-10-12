@@ -1,7 +1,7 @@
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Aditi020/Wanderlust.git)
+<!---  [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Aditi020/Wanderlust.git)
 
-- Gitpod can provide a simple way to clone a repository on the browser itself without a fork. You can configure the repository on the browser version of VS Code without worrying about the dependencies to install.
+- Gitpod can provide a simple way to clone a repository on the browser itself without a fork. You can configure the repository on the browser version of VS Code without worrying about the dependencies to install. ---!>
 
 <h1 align="center">Wanderlust🎯</h1>
 Wanderlust, a Travel Website is a React application that uses React Hooks and React Router for this beginner React JS Project. The website is fully responsive and provides Authentication and Authorization services.
