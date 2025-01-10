@@ -1,5 +1,5 @@
 {
-  "homepage": "/Wanderlust",
+  "homepage": "/",
   "name": "travel-website",
   "version": "0.1.0",
   "private": true,
@@ -45,8 +45,5 @@
       "@babel/preset-env",
       "@babel/preset-react"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.0.0"
   }
 }
